@@ -13,7 +13,6 @@ var (
 
 // テストデータを投入
 func init() {
-	t.Error("a")
 	session, err := mgo.Dial("localhost")
 	if err != nil {
 		panic(err)
