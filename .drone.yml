@@ -1,0 +1,10 @@
+image: go1.2
+env:
+  - GOPATH=/var/cache/drone
+services:
+  - mongodb
+script:
+  - go get labix.org/v2/mgo
+  - go get labix.org/v2/mgo/bson
+  - go build
+  - go test -cover -v
