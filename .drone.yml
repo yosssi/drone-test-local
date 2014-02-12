@@ -9,12 +9,12 @@ script:
   - go build
   - go test -cover -v
 notify:
-  email:
-    recipients:
-      - yoshida.keiji.84@gmail.com
   hipchat:
     room: dronetest
     token: 7af96e16fbdd355c61e1a8d01344f5
     on_started: true
     on_success: true
     on_failure: true
+  email:
+    recipients:
+      - yoshida.keiji.84@gmail.com
