@@ -20,4 +20,4 @@ notify:
       - yoshida.keiji.84@gmail.com
 scm:
   git:
-    depth: 2
+    depth: 0
