@@ -19,3 +19,4 @@ notify:
     recipients:
       - yoshida.keiji.84@gmail.com
 git:
+  aaa: 1
