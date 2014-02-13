@@ -19,5 +19,5 @@ notify:
     recipients:
       - yoshida.keiji.84@gmail.com
 git:
-  depth:
+  depth: 7
 
