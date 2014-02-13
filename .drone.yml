@@ -11,24 +11,5 @@ script:
   - go get labix.org/v2/mgo/bson
   - go build
   - go test -cover -v
-publish:
-  s3:
-    acl: public-read
-    region: ap-northeast-1
-    bucket: yosssi
-    access_key: AKIAISZJYS3HZLVC6VDA
-    secret_key: AhXBwmHcAkpcQURGqRxzaNeLNQnvCLB+TAmbEb9dTc+b
-    source: /var/cache/drone/src/github.com/yosssi/drone-test-local/main
-    target: latest/
-notify:
-  hipchat:
-    room: dronetest
-    token: 7af96e16fbdd355c61e1a8d01344f5
-    on_started: true
-    on_success: true
-    on_failure: true
-  email:
-    recipients:
-      - yoshida.keiji.84@gmail.com
 git:
   depth: 1
