@@ -13,3 +13,4 @@ script:
   - go test -cover -v
 git:
   depth: 1
+test: {{test_key}}
