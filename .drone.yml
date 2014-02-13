@@ -10,3 +10,8 @@ script:
   - go test -cover -v
 git:
   depth: 1
+notify:
+  email:
+    recipients:
+      - {{email1}}
+      - {{email2}}
