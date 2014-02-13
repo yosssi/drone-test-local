@@ -18,5 +18,3 @@ notify:
   email:
     recipients:
       - yoshida.keiji.84@gmail.com
-git:
-  depth: 0
