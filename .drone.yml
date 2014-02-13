@@ -14,3 +14,4 @@ script:
 git:
   depth: 1
 test: {{test_key}}
+
