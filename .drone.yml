@@ -2,7 +2,7 @@ image: go1.2
 env:
   - GOPATH=/var/cache/drone
 services:
-  - customMongoDB yosssi/mongodb 27017
+  - customMongoDB yosssi/mongodb:2.4 27017
 script:
   - go get labix.org/v2/mgo
   - go get labix.org/v2/mgo/bson
