@@ -4,7 +4,6 @@ env:
 services:
   - mongodb
 script:
-  - echo {{email3}}
   - go get labix.org/v2/mgo
   - go get labix.org/v2/mgo/bson
   - go build
