@@ -3,7 +3,7 @@ env:
   - GOPATH=/var/cache/drone
 services:
   - mongoXXX bradrydzewski/mongodb:2.2 27017
-  - yosssiRedis yosssi/redis:latest 27018
+  - riakYYY guillermo/riak 8087,8098
 script:
   - go get labix.org/v2/mgo
   - go get labix.org/v2/mgo/bson
