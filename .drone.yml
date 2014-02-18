@@ -10,3 +10,4 @@ script:
   - go test -cover -v
 git:
   depth: 1
+
